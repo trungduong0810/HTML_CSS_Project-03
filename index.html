@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css  -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Project_03 HTML CSS PRO</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- header top  -->
+        <div class="header-top">
+          <div class="logo">
+            <img src="./assets/img/Logo.svg" alt="" class="logo__image" />
+          </div>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav___item">
+                <a href="#!" class="nav__link">Home</a>
+              </li>
+              <li class="nav___item">
+                <a href="#!" class="nav__link">Services</a>
+              </li>
+              <li class="nav___item">
+                <a href="#!" class="nav__link">About</a>
+              </li>
+              <li class="nav___item">
+                <a href="#!" class="nav__link">Doctors</a>
+              </li>
+            </ul>
+          </div>
+          <div class="actions">
+            <a href="#!" class="action__link">Sign in</a>
+            <a href="#!" class="btn action__btn">Sign up</a>
+          </div>
+        </div>
+        <!-- header body  -->
+        <div class="header-body">
+          <!-- header left  -->
+          <div class="header-left">
+            <h1 class="header__title">Exceptional dental care for all ages.</h1>
+            <p class="header__desc">
+              Exceptional dental care for all ages. Your great smile begins with
+              a great dentist.
+            </p>
+            <div class="header__book">
+              <a href="#!" class="btn book__btn">Book Online</a>
+              <strong class="book__call">or call (123) 456-7890</strong>
+            </div>
+          </div>
+          <!-- header right  -->
+          <div class="header-right">
+            <img
+              src="./assets/img/header-img.png"
+              alt=""
+              class="header__image"
+            />
+            <img
+              src="./assets/img/header-thumb.jpg"
+              alt=""
+              class="header__thumb"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- services  -->
+      <div class="service" id="service">
+        <div class="container">
+          <section class="section">
+            <h2 class="section__title service__title">Our services</h2>
+            <p class="section__desc service__desc">
+              Exceptional dental care for all ages. Your great smile begins with
+              a great dentist.
+            </p>
+            <div class="service-row">
+              <figure class="service__img-wrap">
+                <img
+                  src="./assets/img/service.jpg"
+                  alt=""
+                  class="service__img"
+                />
+              </figure>
+              <ul class="service__list">
+                <li class="service__item">
+                  <div class="service__item-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                  </div>
+                  <div class="service__info">
+                    <h3 class="service__item-name">Oral Surgery</h3>
+                    <p class="service__item-desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </li>
+                <li class="service__item">
+                  <div class="service__item-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                  </div>
+                  <div class="service__info">
+                    <h3 class="service__item-name">Oral Surgery</h3>
+                    <p class="service__item-desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </li>
+                <li class="service__item">
+                  <div class="service__item-icon">
+                    <i class="fa-solid fa-tooth"></i>
+                  </div>
+                  <div class="service__info">
+                    <h3 class="service__item-name">Oral Surgery</h3>
+                    <p class="service__item-desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </li>
+                <a href="#!" class="btn service__btn">All Services</a>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- work  -->
+      <div class="work">
+        <div class="container">
+          <section class="section">
+            <h2 class="section__title work__title">How it works</h2>
+            <p class="section__desc work__desc">
+              Exceptional dental care for all ages. Your great smile begins with
+              a great dentist.
+            </p>
+            <ul class="work__list">
+              <li class="work__item">
+                <div class="work__item-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="h3 work__item-title">Search doctor</div>
+                <p class="word__item-desc">
+                  Search a doctor by education, qualifications or
+                  experience-contact for inquiry.
+                </p>
+                <a href="#!" class="work__item-learn">Learn More</a>
+              </li>
+              <li class="work__item">
+                <div class="work__item-icon">
+                  <i class="fa-solid fa-user-doctor"></i>
+                </div>
+                <div class="h3 work__item-title">Find best doctor</div>
+                <p class="word__item-desc">
+                  Search a doctor by education, qualifications or
+                  experience-contact for inquiry.
+                </p>
+                <a href="#!" class="work__item-learn">Learn More</a>
+              </li>
+              <li class="work__item">
+                <div class="work__item-icon">
+                  <i class="fa-solid fa-briefcase-medical"></i>
+                </div>
+                <div class="h3 work__item-title">Get treatment</div>
+                <p class="word__item-desc">
+                  Search a doctor by education, qualifications or
+                  experience-contact for inquiry.
+                </p>
+                <a href="#!" class="work__item-learn">Learn More</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <!-- feature  -->
+      <div class="feature">
+        <div class="container">
+          <div class="feature-content">
+            <div class="feature-left">
+              <figure>
+                <img
+                  src="./assets/img/feature-2.svg"
+                  alt=""
+                  class="feature__img2"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="./assets/img/feature-1.svg"
+                  alt=""
+                  class="feature__img1"
+                />
+              </figure>
+            </div>
+            <div class="feature-right">
+              <h2 class="section__title feature__title">
+                Take back your smile with shine.
+              </h2>
+              <p class="section__desc work__desc">
+                If you’re missing multiple teeth due to decay, injury, or the
+                natural aging process, dentures might be the perfect solution.
+              </p>
+              <div class="btn feature__btn">Learn More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- member  -->
+      <div class="member">
+        <div class="container">
+          <section class="member__header">
+            <h2 class="section__title member__title">Our virtual dentist</h2>
+            <div class="btn member__btn">Meet our dentist</div>
+          </section>
+          <section class="member__list">
+            <div class="member__items">
+              <div class="member__image">
+                <figure>
+                  <img
+                    src="./assets/img/doctor-1.svg"
+                    alt="Dr. Essence"
+                    class="member__img"
+                  />
+                </figure>
+              </div>
+              <h3 class="member__name">Dr. Essence Page</h3>
+              <p class="member__desc">DDS, California - Linda University</p>
+            </div>
+            <div class="member__items">
+              <div class="member__image">
+                <figure>
+                  <img
+                    src="./assets/img/doctor-2.svg"
+                    alt="Dr. Essence"
+                    class="member__img"
+                  />
+                </figure>
+              </div>
+              <h3 class="member__name">Dr. Essence Page</h3>
+              <p class="member__desc">DDS, California - Linda University</p>
+            </div>
+            <div class="member__items">
+              <div class="member__image">
+                <figure>
+                  <img
+                    src="./assets/img/doctor-3.svg"
+                    alt="Dr. Essence"
+                    class="member__img"
+                  />
+                </figure>
+              </div>
+              <h3 class="member__name">Dr. Essence Page</h3>
+              <p class="member__desc">DDS, California - Linda University</p>
+            </div>
+            <div class="member__items">
+              <div class="member__image">
+                <figure>
+                  <img
+                    src="./assets/img/doctor-4.svg"
+                    alt="Dr. Essence"
+                    class="member__img"
+                  />
+                </figure>
+              </div>
+              <h3 class="member__name">Dr. Essence Page</h3>
+              <p class="member__desc">DDS, California - Linda University</p>
+            </div>
+          </section>
+          <div class="member__btn--control">
+            <div class="control__left">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="control__right">
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- install app  -->
+      <div class="install-app">
+        <div class="container">
+          <div class="download-app">
+            <figure>
+              <img
+                src="./assets/img/Rectangle.svg"
+                alt="download app"
+                class="install__app--img"
+              />
+            </figure>
+            <div class="install__info">
+              <h2 class="instal__title">Take back your smile with dentures</h2>
+              <p class="install__desc">
+                If you’re missing multiple teeth due to decay, injury, or the
+                natural aging process, dentures might be the perfect solution.
+              </p>
+              <div class="download__icon">
+                <a href="#!" class="download__icon--link"
+                  ><img
+                    src="./assets/img/Google Play outline badge.svg"
+                    alt="Google Play"
+                    class="google__play"
+                /></a>
+                <a href="#!" class="download__icon--link"
+                  ><img
+                    src="./assets/img/App Store outline badge.svg"
+                    alt="App Store"
+                    class="app__store"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- news  -->
+      <div class="news">
+        <div class="container">
+          <div class="news__body">
+            <div class="news__content">
+              <h2 class="news__title">Read Latest News & Events.</h2>
+              <a href="" class="news__more">Read All Blog</a>
+              <div class="news__btn--control">
+                <div class="control__left">
+                  <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="control__right">
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="new__list">
+              <div class="news__item">
+                <img src="./assets/img/news_1.svg" alt="" class="news__img" />
+                <div class="news__item--info">
+                  <h3 class="news__item--heading">
+                    Key Considerations for Regulatory Compliant.
+                  </h3>
+                  <p class="news__item--desc">
+                    It’s easy to think about medical care from a narrow
+                    perspective. You go to the hospital.
+                  </p>
+                  <a href="#!" class="news__item--more">Learn More</a>
+                </div>
+              </div>
+              <div class="news__item">
+                <img src="./assets/img/news-2.svg" alt="" class="news__img" />
+                <div class="news__item--info">
+                  <h3 class="news__item--heading">
+                    Key Considerations for Regulatory Compliant.
+                  </h3>
+                  <p class="news__item--desc">
+                    It’s easy to think about medical care from a narrow
+                    perspective. You go to the hospital.
+                  </p>
+                  <a href="#!" class="news__item--more">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- appointment -->
+      <div class="appointment">
+        <div class="container">
+          <div class="appointment-body">
+            <div class="section__title appointment-title">
+              Always welcoming new patients
+            </div>
+            <div class="section__desc appointment-desc">
+              Take control of your dental health and get the personalized care
+              you deserve. Call (541) 772-8846 to schedule
+            </div>
+            <div class="btn appointment__btn">Appointment</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-row">
+               <!-- footer column 1 -->
+              <div class="footer__column">
+                <figure>
+                  <img
+                    src="./assets/img/Logo.svg"
+                    alt="Logo"
+                    class="footer__logo"
+                  />
+                </figure>
+                <p class="footer__desc--col1">
+                  Exceptional dental care for all ages. Your great smile begins
+                  with a great dentist.
+                </p>
+              </div>
+               <!-- footer column 2 -->
+              <div class="footer__column">
+                <h3 class="footer__heading">Support</h3>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="" class="footer__link">Help center</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="" class="footer__link">Account information</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="" class="footer__link">About</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="" class="footer__link">Contact us</a>
+                  </li>
+                </ul>
+                <h3 class="footer__heading">Support</h3>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="" class="footer__link">Help center</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="" class="footer__link">Account information</a>
+                  </li>
+                </ul>
+              </div>
+                <!-- footer column 3 -->
+                <div class="footer__column">
+                  <h3 class="footer__heading">Support</h3>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="" class="footer__link">Help center</a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="" class="footer__link">Account information</a>
+                    </li>
+                  </ul>
+                  <h3 class="footer__heading">Support</h3>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="" class="footer__link">Help center</a>
+                    </li>
+                  </ul>
+              </div>
+               <!-- footer column 4-->
+               <div class="footer__column">
+                <h3 class="footer__heading">Stay In Touch</h3>
+                <div class="footer__society">
+                 <a href="#!"> <i class="fa-brands fa-facebook-f icon__social"></i></a>
+                 <a href="#!"> <i class="fa-brands fa-twitter icon__social"></i></a>
+                  <a href="#!"><i class="fa-brands fa-linkedin-in icon__social"></i></a>
+                </div>
+                <h3 class="footer__heading">Subscribe</h3>
+                <p class="footer__desc">Subscribe our newsletter for the latest update of Dental care</p>
+                <form action="" class="footer__form" autocomplete="off">
+                  <input type="email" class="footer__input" name="email" id="email" placeholder="Enter your email" required>
+                  <button type="submit" class="footer__btn">Subscribe</button>
+                </form>
+               </div>
+            </div>
+            <p class="footer__last">2021 GDN. Copyright and All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
